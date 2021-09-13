@@ -39,6 +39,9 @@ class Assignment2:
     
     # Task 5: Loops and Conditional Statements
     def checkGoodString(self, string: str) -> bool:
+        if not isinstance(string, str):
+            return False        
+        
         if len(string) < 9:
             return False
         if not string[0].islower():
