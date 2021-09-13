@@ -12,7 +12,7 @@ class Assignment2:
         
     # Task 2: Birth Year
     def tellBirthYear(self, currentYear: int):
-        print("Your birth year is ", (currentYear - self.age))
+        print("Your birth year is", (currentYear - self.age))
 
     # Task 3: List
     def listAnniversaries(self, n: int) -> list:
