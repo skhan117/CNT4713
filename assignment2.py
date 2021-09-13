@@ -32,7 +32,7 @@ class Assignment2:
             r = r // 10
         s += (str(r)) * n
         
-        third = str(self.age ^ n)
+        third = str(self.age ** n)
         s += third[::2]
         
         return s
